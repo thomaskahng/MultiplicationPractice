@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Numbers</string>
+    <string name="start_mult">Start</string>
+    <string name="practice">Practice</string>
+
+    <string name="multiplication">Multiplication!</string>
+    <string name="action_switch_layout">Switch Layout</string>
+
+    <string name="congratulations">Congratulations!</string>
+    <string name="you_scored">"You scored: %d"</string>
+    <string name="exit">Exit</string>
+    <string name="play_again">Again</string>
+
+    <string name="submit">Submit</string>
+    <string name="instructions">Solve the problem</string>
+    <string name="your_answer">Your answer</string>
+
+    <string name="score">Score: %d</string>
+    <string name="prob_count">%d of %d problems</string>
+    <string name="try_again">Try again!</string>
+
+    <string name="next">Next</string>
+    <string name="enter_name">Enter name:</string>
+    <string name="enter_valid_name">Please enter your name!</string>
+
+    <string name="name">Name:</string>
+    <string name="date">Date:</string>
+    <string name="practiced">Practiced:</string>
+    <string name="tot_score">Score:</string>
+    <string name="correct_total">Correct:</string>
+
+    <string name="send">Send</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="mult_details"> Name: %1$s \n Date: %2$s \n Practiced: %3$s \n
+        Correct: %4$s \n \n Thank you!</string>
+    <string name="new_practice">New Practice:</string>
+    <string name="your_name">Your name is: </string>
+    <string name="ok">OK</string>
+
+    <string name="enter_your_name">Enter Name</string>
+    <string name="results">Results</string>
+
+    <string name="num_practiced">{number}s</string>
+    <string name="number">{number}</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

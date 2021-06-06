@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".NumberListFragment">
+
+    <data>
+        <!-- Add layout variable and type for view of corresponding start fragment -->
+        <variable
+            name="numberListFragment"
+            type="com.example.cupcake.NumberListFragment" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/side_margin">
+
+            <!-- Practice 1 -->
+            <Button
+                android:id="@+id/practice_1"
+                android:onClick="@{() -> numberListFragment.practiceNumber(1)}"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/side_margin"
+                android:text="1" />
+
+            <!-- Practice 2 -->
+            <Button
+                android:id="@+id/practice_2"
+                android:onClick="@{() -> numberListFragment.practiceNumber(2)}"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/side_margin"
+                android:text="2" />
+
+            <!-- Practice 3 -->
+            <Button
+                android:id="@+id/practice_3"
+                android:onClick="@{() -> numberListFragment.practiceNumber(3)}"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/side_margin"
+                android:text="3" />
+
+            <!-- Practice 4 -->
+            <Button
+                android:id="@+id/practice_4"
+                android:onClick="@{() -> numberListFragment.practiceNumber(4)}"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/side_margin"
+                android:text="4" />
+
+            <!-- Practice 5 -->
+            <Button
+                android:id="@+id/practice_5"
+                android:onClick="@{() -> numberListFragment.practiceNumber(5)}"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/side_margin"
+                android:text="5" />
+
+            <!-- Practice 6 -->
+            <Button
+                android:id="@+id/practice_6"
+                android:onClick="@{() -> numberListFragment.practiceNumber(6)}"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/side_margin"
+                android:text="6" />
+
+            <!-- Practice 7 -->
+            <Button
+                android:id="@+id/practice_7"
+                android:onClick="@{() -> numberListFragment.practiceNumber(7)}"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/side_margin"
+                android:text="7" />
+
+            <!-- Practice 8 -->
+            <Button
+                android:id="@+id/practice_8"
+                android:onClick="@{() -> numberListFragment.practiceNumber(8)}"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/side_margin"
+                android:text="8" />
+
+            <!-- Practice 9 -->
+            <Button
+                android:id="@+id/practice_9"
+                android:onClick="@{() -> numberListFragment.practiceNumber(9)}"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/side_margin"
+                android:text="9" />
+
+            <!-- Practice 10 -->
+            <Button
+                android:id="@+id/practice_10"
+                android:onClick="@{() -> numberListFragment.practiceNumber(10)}"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/side_margin"
+                android:text="10" />
+
+            <!-- Practice 11 -->
+            <Button
+                android:id="@+id/practice_11"
+                android:onClick="@{() -> numberListFragment.practiceNumber(11)}"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/side_margin"
+                android:text="11" />
+
+            <!-- Practice 6 -->
+            <Button
+                android:id="@+id/practice_12"
+                android:onClick="@{() -> numberListFragment.practiceNumber(12)}"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/side_margin"
+                android:text="12" />
+        </LinearLayout>
+    </ScrollView>
+</layout>
