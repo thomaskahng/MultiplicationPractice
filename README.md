@@ -1,20 +1,21 @@
-Multiplication Practice
-=================================
+# Main Menu
 
-About:
-This project is a practice tool for times tables from 1 to 12. The user will click on a number, indicating he or she wishes to practice multiplication of a selected number from times 1 to times 12. After finishing one round of practice, the user would then enter their name and see results. At the end, the user can either go back to start or email results to themselves. Remember, the backtracking button is shown but that feature is disabled for this particular app.
+![Screenshot 2022-05-30 203450](https://user-images.githubusercontent.com/76675748/171076368-31f09c9d-8346-4c1e-b4df-031cba32b96c.png)
 
-Main Menu:
-This is the starting page of the application, all the user does is to click the start button to start practicing or just using the app.
+# Select Number to Practice
 
-Pick a Number:
-There are 12 buttons from 1 to 12, and clicking on a number button will indicate the user will practice multiplication from that number times 1 to that number times 12 in the next page. Click the button with the number you wish to practice basic multiplication with.
+![Screenshot 2022-05-30 203506](https://user-images.githubusercontent.com/76675748/171076377-c54ec79d-9b74-4dd8-9f6f-546bae035ff3.png)
 
-Multiplication Practice:
-Here, the user will practice multiplication from times 1 to times 12 with a selected number based on the  clicked button in the previous page. If the user is correct on their first try, there will be points added to his or her score, else there will be a message saying the answer is wrong. Blank submissions will be counted as wrong. If the user is wrong 3 or more times, there will be a pop up showing the correct answer. If the user gets a problem right after the first try, no points will be added. At the end, the number of points will be shown and the user can practice again or quit. If “Again” is clicked, the user will be prompted to practice again, but if “Exit” is clicked, user will be directed to enter their name.
+# Practice a Number
 
-Enter Name:
-This is where the user enters his or her name and clicks “Next” to see results. The user must enter any name to proceed. Any name is accepted except no name, and if the space is blank there will be an error message.
+![Screenshot 2022-05-30 203923](https://user-images.githubusercontent.com/76675748/171076496-085e8cf2-516c-407b-8c0d-11e854c01569.png)
 
-Results:
-At the end of each practice, the user is directed to this once the “Exit” button is clicked for the second pop up following the results. There will be the user’s name, today’s date, number practiced, and fraction of correct answers shown. Below, if the user clicks the “Send” button, he can send results by email; but if “Cancel” is clicked, it will redirect to the main menu.
+# Enter Name
+
+![Screenshot 2022-05-30 203944](https://user-images.githubusercontent.com/76675748/171076517-81c83c5a-1881-47ce-a4ca-d4181fb924ad.png)
+
+# Send Results
+
+![Screenshot 2022-05-30 204007](https://user-images.githubusercontent.com/76675748/171076530-00ba4e5c-1755-4ecf-b410-3ba13d7d7f73.png)
+
+![Screenshot 2022-05-30 204024](https://user-images.githubusercontent.com/76675748/171076574-9452111b-497d-4fb9-bb78-ca6f2479972e.png)
